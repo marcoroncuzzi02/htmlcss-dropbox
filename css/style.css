@@ -42,3 +42,10 @@ main section.first-position div.left-down-block{
     flex-wrap: wrap;
     flex-basis: 30%;
 }
+main section.first-position div.img-container{
+    flex-basis: 70%;
+}
+main section.first-position div.img-container img{
+    position: relative;
+    top: 50px;
+}
