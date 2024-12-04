@@ -1,0 +1,44 @@
+:root{
+    --blue:#0061fe
+}
+/* header css */
+header{
+    justify-content: space-between;
+    padding: 20px 10px;
+    align-items: center;
+}
+header div.left-header{
+    gap: 20px;
+    align-items: center;
+    justify-content: center;
+}
+header div.right-header{
+    gap: 20px;
+    align-items: center;
+    justify-content: center;
+}
+header button{
+    background-color: var(--blue);
+    padding: 5px 10px;
+    color: white;
+}
+/* main css */
+main section.first-position{
+    flex-direction: column;
+    align-items: center;
+}
+main div.title{
+    margin-inline: 30%;
+    font-size: 200%;
+    margin-block: 2%;
+}
+main div.subtitle-first-position{
+    margin-inline: 30%;
+    justify-content: space-between;
+}
+main section.first-position div.left-down-block{
+    flex-direction: column;
+    gap: 10px;
+    flex-wrap: wrap;
+    flex-basis: 30%;
+}
