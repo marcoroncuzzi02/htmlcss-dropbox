@@ -58,7 +58,7 @@ main section.first-position button{
     color: white;
 }
 hr{
-    border: 1px solid grey
+    border: 1px solid lightgray
 }
 .hr-full{
     margin-top: 30px;
@@ -233,4 +233,61 @@ main section.fifth-position{
 }
 main section.fifth-position h2{
     width: 50%;
+}
+/* footer css */
+footer {
+    flex-direction: column;
+    padding: 10px;
+    background-color:#23272a ;
+    color: white;
+}
+footer div.first-item.second-father.first-position{
+   padding-block: 10px;
+   padding-inline: 2%;
+   justify-content: space-between;
+}
+footer div.second-item.third-father.first-position{
+    padding-block: 10px;
+    padding-inline: 2%;
+    flex-direction: column;
+    gap: 20px;
+}
+footer div.second-item.third-father.second-position{
+    flex-direction: column;
+    padding-block: 10px;
+    padding-inline: 2%;
+    gap: 20px;
+}
+footer div.second-item.third-father.third-position{
+    flex-direction: column;
+    padding-block: 10px;
+    padding-inline: 2%;
+    gap: 20px;
+}
+footer div.second-item.third-father.quarter-position{
+    flex-direction: column;
+    padding-block: 10px;
+    padding-inline: 2%;
+    gap: 30px;
+}
+footer div.second-item.third-father.fifth-position{
+    flex-direction: column;
+    padding-block: 10px;
+    padding-inline: 2%;
+   gap: 20px;
+}
+footer div.first-item.second-father.second-position{
+    flex-direction: column;
+    padding-block: 10px;
+    padding-inline: 2%;
+}
+footer div.second-item.third-father :first-child{
+    font-weight: bold;
+    font-size: 120%;
+    padding-block: 10px;
+}
+.hr-very-short{
+    width: 10%;
+    margin-block: 30px;
+    
 }
