@@ -20,14 +20,14 @@ header div.right-header{
 }
 header button{
     background-color: var(--blue);
-    padding: 5px 10px;
+    padding: 5px 15px;
     color: white;
 }
 /* main css */
 main section.first-position{
     flex-direction: column;
     align-items: center;
-    background-color: var(--lightblue)
+    background: linear-gradient( #b4d0e6 90%, white 10%)
 }
 main div.title-first-position{
     margin-inline: 20%;
@@ -46,35 +46,191 @@ main section.first-position div.left-down-block{
     flex-basis: 30%;
 }
 main div.arrow{
-    padding-top: 20%;
+    margin-top: 40%;
+    font-size: 300%;
 }
 main section.first-position div.img-container{
     flex-basis: 70%;
-}
-main section.first-position div.img-container img{
-    position: relative;
-    top: 50px;
 }
 main section.first-position button{
     background-color: var(--blue);
     padding: 5px 10px;
     color: white;
 }
+hr{
+    border: 1px solid grey
+}
+.hr-full{
+    margin-top: 30px;
+}
 /* second section css */
 main section.second-position{
     flex-direction: column;
     gap: 10px;
-    padding: 10% 25%
+    padding: 5% 25%
+}
+main div.title-second-position{
+    font-size: 120%;
+    padding-block: 20px;
 }
 main div.buttons-second-position{
     gap: 15px;
+    padding-block: 20px;
+}
+main div.buttons-second-position div.second-buttons-container{
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+}
+.span--circle{
+    height:15px ;
+    aspect-ratio: 1;
+    border: 1px solid black;
+    border-radius: 50%;
+    display: inline-block;
+}
+span.border--blue{
+    border: 4px solid var(--blue);
 }
 main div.row-blocks-second-position{
     gap: 20px;
 }
-main div.row-blocks-second-position div{
+
+main div.row-blocks-second-position > div{
     width: calc((100% - 40px) / 3);
 }
+main div.first-block-second-position{
+    flex-direction: column;
+    border: 1px solid grey;
+}
+main div.column-up-first-block{
+    padding-block: 10px;
+    width: 100%;
+    border-bottom: 1px solid grey;
+    text-align: center;
+}
+main div.column-down-first-position{
+    flex-direction: column;
+    gap: 20px;
+    padding: 20px 10px;
+    justify-content: flex-start;
+}
+main div.first-position-column-down-items-first-block{
+    flex-direction: column;
+    gap: 5px;
+}
+main div.first-position-column-down-items-first-block h3{
+    padding-block: 10px;
+}
+.font-weight--bold{
+    font-weight: bold
+}
+.color--light-grey{
+    color: rgb(125, 120, 120);
+}
+main div.second-position-column-down-items-first-block{
+    flex-direction: column;
+    gap: 10px;
+}
+
+main div.third-position-column-down-items-first-block{
+    flex-direction: column;
+    gap: 15px;
+}
+main div.third-position-column-down-items-first-block button{
+    background-color: var(--blue);
+    padding: 5px 15px;
+    color: white;
+}
+.hr-short{
+    width: 30%;
+    margin-block: 30px;
+}
+main div.quarter-position-column-down-items-first-block{
+    flex-direction: column;
+    gap: 10px;
+}
+main div.quarter-position-column-down-items-first-block h5{
+    padding-block: 5px;
+}
+/* end of the blocks css */
 main div.footer-second-position{
     flex-direction: column;
+    border: 1px solid grey;
+}
+main div.footer-second-position div.column-up{
+    border-bottom: 1px solid grey;
+    text-align: center;
+}
+main div.footer-second-position div.column-down{
+    padding: 10px 40px;
+}
+main div.footer-second-position div.div-left{
+    flex-direction: column;
+    gap: 20px;
+    flex-basis: 70%;
+}
+main div.footer-second-position div.div-left div.side-up{
+    flex-direction: column;
+    gap: 10px;
+}
+main div.footer-second-position div.div-right button{
+    background-color: var(--blue);
+    padding: 5px 15px;
+    color: white;
+}
+/* css third position */
+main section.third-position{
+    padding: 5% 25%    
+}
+main section.third-position div.left{
+    flex-basis: 70%;
+}
+main section.third-position div.right{
+    flex-direction: column;
+    gap: 10px;
+    flex-wrap: wrap;
+    flex-basis: 30%;
+    margin: 20px;
+}
+main section.third-position div.right button{
+    margin-top: 20px;
+    padding: 5px 15px;
+    border: 1px solid black;
+}
+/* css quarter position */
+main section.quarter-position{
+    padding: 5% 25%;
+    flex-direction: column;
+    gap: 15px;
+}
+main section.quarter-position div.side-down{
+    flex-direction: row;
+    gap: 15px;
+    flex-wrap: wrap;
+}
+main section.quarter-position div.side-down div.card{
+    width: calc((100% - 30px) / 3);
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+main section.quarter-position div.side-down div.card div.img-container{
+    flex-basis: 50%;
+}
+main section.quarter-position div.side-down div.card h3{
+    margin-block: 10px;
+    flex-basis: 25%;
+}
+main section.quarter-position div.side-down div.card p{
+    flex-basis: 25%;
+}
+/* fifth section css */
+main section.fifth-position{
+    padding: 5% 25%;
+    flex-direction: column;
+    gap: 30px;
+    
+}
+main section.fifth-position h2{
+    width: 50%;
 }
